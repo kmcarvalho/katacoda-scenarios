@@ -19,7 +19,7 @@
     },
     "assets": {
 			"client": [
-				{ "file": "*", "target": "/home/scrapbook/tutorial/assets" }
+				{ "file": "*", "target": "/home/scrapbook/tutorial" }
 			]
 		}
   },
