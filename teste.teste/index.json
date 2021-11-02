@@ -18,8 +18,16 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout":
+      "editor-terminal",
+    "uieditorpath":
+      "/root/example",
+    "uisettings": 
+      "terraform"
   },
+  "files": [
+    "main.tf", "providers.tf", "variables.tf"
+  ],  
   "backend": {
     "imageid": "terraform"
   }
