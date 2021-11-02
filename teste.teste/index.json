@@ -11,11 +11,17 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "welcome_script.sh"  // <-- When the `intro` step loads, execute welcome_script.sh in the foreground
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+			"client": [
+				{ "file": "*", "target": "~/" }
+			]
+		}
   },
   "environment": {
     "uilayout":
