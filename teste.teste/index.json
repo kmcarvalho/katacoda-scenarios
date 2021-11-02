@@ -12,6 +12,7 @@
     ],
     "intro": {
       "text": "intro.md",
+      "codeData": "envConfig.sh",
       "code": "welcome_script.sh"
     },
     "finish": {
@@ -19,7 +20,7 @@
     },
     "assets": {
 			"client": [
-				{ "file": "*", "target": "/home/scrapbook/tutorial" }
+				{ "file": "*", "target": "/home/scrapbook/tutorial/assets" }
 			]
 		}
   },
